@@ -1,0 +1,851 @@
+﻿Warning: The units associated with the expression 
+(Stock(l,t-1,s) + Production(l,t))[m3]
+, and with the expression 
+(sum( f $ ( UnitTransportCost(f,l) ) , Transport(f,l,t,s) ) )[]
+ are not commensurate.
+Warning: The units associated with the expression 
+(Stock(l,t-1,s) + Production(l,t) + sum( f $ ( UnitTransportCost(f,l) ) , Transport(f,l,t,s) ) )[m3]
+, and with the expression 
+(sum( c $ ( UnitTransportCost(l,c) ) , Transport(l,c,t,s) ) )[]
+ are not commensurate.
+Warning: The units associated with the expression 
+(sum(  ( f, t, p )  $ ( Periods.planning(t) ) , FixedCostDueToLeaveChange * ProductionLineLevelChange(f,p,t) $ ProductionLineLevelChange.domain(f,p) )  + sum(  ( f, t )  $ ( Periods.planning(t) ) , UnitProductionCost(f) * Production(f,t) )  + sum(  ( l, t )  $ ( Periods.planning(t) ) , UnitStockCost(l) * Stock(l,t,s) ) )[$]
+, and with the expression 
+(sum(  ( f, c, t )  $ ( Periods.planning(t) ) , UnitTransportCost(f,c) * Transport(f,c,t,s) $ UnitTransportCost(f,c) ) )[$/m3]
+ are not commensurate.
+Warning: The units associated with the expression 
+(sum( c $ ( UnitTransportCost(f,c) ) , Transport(f,c,t,s) ) )[]
+, and with the expression 
+(MaximumTransportCapacity(f))[m3]
+ are not commensurate.
+Warning: In the time format "week %sW, %c %y" a week number (capital W) is seen without accompanying adapted year number (capital Y); this may lead to unexpected and/or duplicate element names.
+Warning: There is a mismatch between the starting date of the calendar: 2000-07-01 and the beginning of the first period: 2000-06-26. 
+This leads to ambiguities when translating a formatted element name into a period of the calendar. 
+See also option "warning calendar week begin".
+There is 67.883 Mb in use.
+Warning at line 6 in user-defined function section "ReadFromDatabase".
+In the time format "week %sW, %c %y" a week number (capital W) is seen without accompanying adapted year number (capital Y); this may lead to unexpected and/or duplicate element names.
+Warning at line 6 in user-defined function section "ReadFromDatabase".
+There is a mismatch between the starting date of the calendar: 2000-07-01 and the beginning of the first period: 2000-06-26. 
+This leads to ambiguities when translating a formatted element name into a period of the calendar. 
+See also option "warning calendar week begin".
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Input/output error at line 4 in user-defined function section "MainInitialization".
+The library DLL\External Routines.dll has not been loaded because: Error loading library External Routines.dll: .
+
+Execution error at line 4 in user-defined function section "MainInitialization".
+The dll for external function "ExternalUnitTransportCost" has not been found.
+
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the domain set "Factories" contains the element 'Zwolle', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the domain set "Factories" contains the element 'Haarlem', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the domain set "Factories" contains the element 'Eindhoven', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Vlissingen', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Venlo', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Utrecht', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Tilburg', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Rotterdam', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Nijmegen', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Maastricht', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Leeuwarden', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Groningen', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Enschede', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Emmen', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Dordrecht', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Deventer', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Den Helder', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Den Haag', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Den Bosch', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+Warning: In the case "C:\Users\Sweeney\Desktop\OAT工作软件\Softdrink Planning\Cases\Vacation and Holidays.data" the set "Centers" contains the element 'Breda', but its domain set the set "Locations" doesn't contain this element.  In order to retain subset consistency this element is removed from the subset.  See also the options case_ensure_subset_consistency_method and warning_ensuring_case_consistency.
+The maximum of 20 warnings reached, further warnings suppressed. 
+See also option maximal_number_of_warnings_reported
+Warning at line 6 in user-defined function section "ReadFromDatabase".
+In the time format "week %sW, %c %y" a week number (capital W) is seen without accompanying adapted year number (capital Y); this may lead to unexpected and/or duplicate element names.
+Warning at line 6 in user-defined function section "ReadFromDatabase".
+There is a mismatch between the starting date of the calendar: 2000-07-01 and the beginning of the first period: 2000-06-26. 
+This leads to ambiguities when translating a formatted element name into a period of the calendar. 
+See also option "warning calendar week begin".
